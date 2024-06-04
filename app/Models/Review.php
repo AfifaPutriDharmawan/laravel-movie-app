@@ -8,8 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Review extends Model
 {
     use HasFactory;
-    public function review()
-    {
-        return $this->belongsTo(Genre::class, 'movie_id');
-    }   
+
+    protected $fillable = ['movie_id', 'user', 'rating', 'date'];
+
+    public function movie(){
+        return $this->belongsTo(Movie::class, 'movie_id');
+    }
 }

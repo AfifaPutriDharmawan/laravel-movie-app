@@ -15,7 +15,6 @@ class ReviewSeeder extends Seeder
     {
         Review::create([
             'id' => 1,
-            'movie_name' => 'Jojo Bizarre Adventure',
             'movie_id' => '1',
             'user' => 'Alex Brian',
             'rating' => '8/10',
@@ -24,7 +23,6 @@ class ReviewSeeder extends Seeder
         
        Review::create([
             'id' => 2,
-            'movie_name' => 'Noragami',
             'movie_id' => '2',
             'user' => 'Baby Girl',
             'rating' => '9/10',
@@ -33,7 +31,6 @@ class ReviewSeeder extends Seeder
 
        Review::create([
             'id' => 3,
-            'movie_name' => 'Wind Breaker',
             'movie_id' => '3',
             'user' => 'Bryan Elvaro',
             'rating' => '7/10',
@@ -42,7 +39,6 @@ class ReviewSeeder extends Seeder
 
        Review::create([
             'id' => 4,
-            'movie_name' => 'Spy x Family',
             'movie_id' => '4',
             'user' => 'Alvian Jord',
             'rating' => '6/10',
@@ -51,7 +47,6 @@ class ReviewSeeder extends Seeder
 
        Review::create([
             'id' => 5,
-            'movie_name' => 'Detective Conan: Black Iron Submarine (2023)',
             'movie_id' => '5',
             'user' => 'Vino Bastian',
             'rating' => '10/10',

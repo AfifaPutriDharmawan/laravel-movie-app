@@ -36,5 +36,19 @@ class MovieSeeder extends Seeder
             'poster' => 'movie-03.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
+            Movie::create([
+            'id' => 4,
+            'title' => 'Noragami',
+            'genre_id' => '2',
+            'poster' => 'movie-02.jpg',
+            'synopsis' => 'Noragami is an anime series that follows a poor deity named Yato, who desires to become a famous god.',
+        ]);
+        Movie::create([
+            'id' => 5,
+            'title' => 'Wind Breaker',
+            'genre_id' => '3',
+            'poster' => 'movie-03.jpg',
+            'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
+        ]);
     }
 }
