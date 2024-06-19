@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\GenreController;
-use App\Http\Controllers\ReviewsController;
+use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
